@@ -1,4 +1,4 @@
-public class task8 {
+public class Task8 {
     public static void main(String[] args) {
         final byte t = 10; // t - sekundy do udara
 

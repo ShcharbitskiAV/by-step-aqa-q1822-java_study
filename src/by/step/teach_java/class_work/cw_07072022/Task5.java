@@ -1,4 +1,4 @@
-public class task5 {
+public class Task5 {
     public static void main(String[] args) {
         final byte r = 10;
         double area = Math.PI * (r * r);

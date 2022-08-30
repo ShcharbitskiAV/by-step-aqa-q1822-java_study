@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task7 {
+public class Task7 {
     public static void main(String[] args) {
         /*double summavklada;
         int vklad = 2000;

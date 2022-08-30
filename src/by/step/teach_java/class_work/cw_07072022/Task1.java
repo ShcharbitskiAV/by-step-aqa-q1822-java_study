@@ -1,4 +1,4 @@
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         byte x = 5;
         byte y = 2;

@@ -1,4 +1,4 @@
-public class task6 {
+public class Task6 {
     public static void main(String[] args) {
         final byte w = 3;
         final byte h = 5;
