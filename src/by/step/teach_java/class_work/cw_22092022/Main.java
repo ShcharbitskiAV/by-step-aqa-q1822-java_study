@@ -16,7 +16,7 @@ public class Main {
 
         City gorod2 = new City();
         gorod2.setName("Wroclaw");
-        gorod2.setCountry("Spain");
+        gorod2.setCountry("Poland");
         gorod2.setCountOfPeople(1250000);
         gorod2.toString();
 
