@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 public class Game {
     public static void main(String[] args) {
         Game game = new Game();
-        Map map = new Map();
-        Controller control = new Controller();
+        game.Map map = new game.Map();
+        game.Controller control = new game.Controller();
         game.createMap(map);
         game.createStone(map);
         map.addPlayer(9, 0);
