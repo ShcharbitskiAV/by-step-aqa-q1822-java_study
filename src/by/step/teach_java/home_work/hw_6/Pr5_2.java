@@ -17,9 +17,9 @@ public class Pr5_2 {
 
     public static void main(String[] args) {
         Pr5_2 object = new Pr5_2();
-        object.aField();
+       // object.aField();
         object.aMethod();
-        Pr5_2.bField();
+      //  Pr5_2.bField();
         Pr5_2.bMethod();
 
     }

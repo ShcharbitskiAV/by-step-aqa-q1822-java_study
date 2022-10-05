@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_5;
 import java.util.Arrays;
 
 public class Pr4_2 {

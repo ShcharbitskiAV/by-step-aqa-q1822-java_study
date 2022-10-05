@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_4;
 import java.util.Scanner;
 
 public class Pr2_1 {

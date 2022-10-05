@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_4;
 public class Pr1_2 {
         public static void main(String[] args) {
             Variables init1 = new Variables();
