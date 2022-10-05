@@ -1,3 +1,5 @@
+package by.step.teach_java.class_work.cw_21072022;
+
 public class Task2 {
     public static void main(String[] args) {
         int[] array = new int[12];
