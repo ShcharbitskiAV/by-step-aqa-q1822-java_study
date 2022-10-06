@@ -1,3 +1,4 @@
+package by.step.teach_java.class_work.cw_21072022;
 import java.util.Arrays;
 
 public class Task4 {

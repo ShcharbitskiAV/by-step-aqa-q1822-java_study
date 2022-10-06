@@ -1,10 +1,11 @@
+package by.step.teach_java.class_work.cw_08082022;
 import java.util.Scanner;
 
 public class Task5 {
     public static void main(String[] args) {
         Task5 task5 = new Task5();
         Scanner scan = new Scanner(System.in);
-        System.out.print("Input your text with ' ' and '...': "); //пробел и двоеточие
+        System.out.print("Input your text with ' ' and '...': "); //пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         String text = scan.nextLine();
         String[] lenght = text.split("[\\s:]");
         task5.findNumberOfWords(lenght);
