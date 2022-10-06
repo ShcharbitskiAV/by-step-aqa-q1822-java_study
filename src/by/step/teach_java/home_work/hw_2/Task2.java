@@ -1,3 +1,6 @@
+package by.step.teach_java.home_work.hw_2;
+
+
 import java.util.Scanner;
 
 public class Task2 {

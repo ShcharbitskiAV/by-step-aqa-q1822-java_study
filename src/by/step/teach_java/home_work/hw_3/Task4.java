@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_3;
 public class Task4 {
     public static void main(String[] args) {
         int number = 10;
