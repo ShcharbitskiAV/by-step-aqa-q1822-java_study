@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_5;
 public class Pr3_2 {
     public static void main(String[] args) {
         Binary bin = new Binary();

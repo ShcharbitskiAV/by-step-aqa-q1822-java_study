@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_5;
 public class Pr4_3 {
     public static void main(String[] args) {
         int[] array = new int[20];

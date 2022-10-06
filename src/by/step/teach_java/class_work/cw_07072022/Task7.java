@@ -1,3 +1,4 @@
+package by.step.teach_java.class_work.cw_07072022;
 import java.util.Scanner;
 
 public class Task7 {

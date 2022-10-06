@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_5;
 public class Pr3_4 {
     public static void main(String[] args) {
         for (int i = 2; i < 50; i++) {

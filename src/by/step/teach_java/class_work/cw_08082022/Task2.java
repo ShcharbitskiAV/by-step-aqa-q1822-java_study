@@ -1,6 +1,7 @@
 package by.step.teach_java.class_work.cw_08082022;
 import java.util.Scanner;
 
+
 public class Task2 {
 
     public static void main(String[] args) {

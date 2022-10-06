@@ -1,3 +1,4 @@
+package by.step.teach_java.home_work.hw_5;
 public class Pr4_4 {
     public static void main(String[] args) {
         int[][] array = {{1, 1, 1, 1, 1}, {0, 1, 1, 1, 0}, {0, 0, 1, 0, 0}, {0, 1, 1, 1, 0}, {1, 1, 1, 1, 1}};
