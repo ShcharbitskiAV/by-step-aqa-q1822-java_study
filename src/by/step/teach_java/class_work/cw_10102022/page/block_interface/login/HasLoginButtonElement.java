@@ -5,4 +5,8 @@ import by.step.teach_java.class_work.cw_10102022.page.element.login.LoginButtonE
 public interface HasLoginButtonElement {
 
     LoginButtonElement getLoginButtonElement();
+
+    default void showLoginButtonElementSelector () {
+        System.out.println(getLoginButtonElement().elementSelector);
+    }
 }

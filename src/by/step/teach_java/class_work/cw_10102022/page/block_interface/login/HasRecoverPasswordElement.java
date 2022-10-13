@@ -4,4 +4,8 @@ import by.step.teach_java.class_work.cw_10102022.page.element.login.RecoverPassw
 
 public interface HasRecoverPasswordElement {
     RecoverPasswordElement getRecoverPasswordElement();
+
+    default void showRecoverPasswordElementSelector () {
+        System.out.println(getRecoverPasswordElement().elementSelector);
+    }
 }

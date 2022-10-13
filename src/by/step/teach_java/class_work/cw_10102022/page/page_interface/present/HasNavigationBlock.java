@@ -4,4 +4,6 @@ import by.step.teach_java.class_work.cw_10102022.page.block.present.NavigationBl
 
 public interface HasNavigationBlock {
     NavigationBlock getNavigationBlock();
+
+
 }

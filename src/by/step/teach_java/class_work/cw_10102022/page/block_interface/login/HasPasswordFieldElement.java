@@ -4,4 +4,8 @@ import by.step.teach_java.class_work.cw_10102022.page.element.login.PasswordFiel
 
 public interface HasPasswordFieldElement {
     PasswordFieldElement getPasswordFieldElement();
+
+    default void showPasswordFieldElementSelector () {
+        System.out.println(getPasswordFieldElement().elementSelector);
+    }
 }

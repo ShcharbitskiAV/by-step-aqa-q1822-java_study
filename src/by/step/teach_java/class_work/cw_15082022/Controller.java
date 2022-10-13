@@ -1,4 +1,4 @@
-package by.step.teach_java.class_work.cw_15082022.game;
+package by.step.teach_java.class_work.cw_15082022;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -15,7 +15,7 @@ public class Controller {
         return direction;
     }
 
-    public void movePerson(game.Map map) {
+    public void movePerson(Map map) {
         int move = getDirection();
         switch (move) {
             case (2): {

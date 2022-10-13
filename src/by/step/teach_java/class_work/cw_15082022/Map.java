@@ -1,4 +1,4 @@
-package by.step.teach_java.class_work.cw_15082022.game;
+package by.step.teach_java.class_work.cw_15082022;
 
 
 public class Map {

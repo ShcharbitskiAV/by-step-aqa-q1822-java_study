@@ -1,8 +1,5 @@
 package by.step.teach_java.home_work.hw_2;
-<<<<<<< HEAD
 
-=======
->>>>>>> 6356e345aa65f4928bb0ba5cd6a8a36e83d38996
 import java.util.Scanner;
 
 public class Task8 {

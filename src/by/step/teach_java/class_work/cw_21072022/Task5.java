@@ -1,8 +1,5 @@
 package by.step.teach_java.class_work.cw_21072022;
-<<<<<<< HEAD
 
-=======
->>>>>>> 6356e345aa65f4928bb0ba5cd6a8a36e83d38996
 import java.util.Arrays;
 import java.util.Scanner;
 
