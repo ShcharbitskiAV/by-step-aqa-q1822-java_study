@@ -8,5 +8,6 @@ public class Main {
         ((Frog) frog).sayKva();
 
         Amphibian triton = (Frog) new Amphibian();
+
     }
 }
