@@ -18,8 +18,9 @@ public class Task1 {
         String str = null;
 
         try {
-            System.out.println("Input your number: ");
+            System.out.println("Input your a number: ");
             str = scan.nextLine();
+            number = Integer.parseInt(str);
         } catch (NumberFormatException e) {
             System.out.println(str + "is not a number");
             getCorrectNumberFromConsole();
