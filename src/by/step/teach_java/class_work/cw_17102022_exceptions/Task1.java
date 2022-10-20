@@ -17,12 +17,13 @@ public class Task1 {
         Scanner scan = new Scanner(System.in);
         String str = null;
 
+
         try {
-            System.out.println("Input your a number: ");
+            System.out.println("Input your numbers: ");
             str = scan.nextLine();
             number = Integer.parseInt(str);
         } catch (NumberFormatException e) {
-            System.out.println(str + "is not a number");
+            System.out.println(str + " is not a number");
             getCorrectNumberFromConsole();
         }
 
