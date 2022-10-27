@@ -1,4 +1,4 @@
-package by.step.teach_java.class_work.cw_07072022_easytasks;
+package by.step.teach_java.class_work.cw_07072022_intro_tasks;
 import java.util.Locale;
 import java.util.Scanner;
 

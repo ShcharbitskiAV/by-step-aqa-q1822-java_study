@@ -1,12 +1,9 @@
 package by.step.teach_java.class_work.cw_17102022_exceptions;
 
-public class MyException extends Exception {
-
+public class MyExceptionTwo extends RuntimeException {
     String message;
 
-    public MyException (String message) {
+    public MyExceptionTwo(String message) {
         super(message);
     }
-
-
 }
