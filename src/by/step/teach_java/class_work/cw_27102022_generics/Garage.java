@@ -3,14 +3,21 @@ package by.step.teach_java.class_work.cw_27102022_generics;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Garage <E> {
+public class Garage<T> {
 
-    Garage<Transport> garage = new Garage<>();
+    public static void main(String[] args) {
+        Garage<Transport> garage = new Garage<>();
 
-    Transport <Truck> truck = new Transport<>();
-    Transport<Bus> bus = new Bus<>();
+        Transport<Bus> bus = new Transport<>();
+        Bus b1 = new Bus();
+        b1.setName(b1.name);
 
-    List<E> listOfTransport = new ArrayList<E>(3);
-    Transport<E> transport = new Transport<E>();
+        Transport<Truck> truck = new Transport<>();
+        Truck t1 = new Truck();
+        t1.setName(t1.name);
+
+    }
+
+
 
 }
