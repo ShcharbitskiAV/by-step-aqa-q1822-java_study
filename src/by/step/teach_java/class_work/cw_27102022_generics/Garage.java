@@ -1,7 +1,5 @@
 package by.step.teach_java.class_work.cw_27102022_generics;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Garage<T> {
 
