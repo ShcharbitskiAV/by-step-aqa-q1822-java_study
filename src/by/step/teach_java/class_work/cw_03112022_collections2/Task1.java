@@ -5,10 +5,13 @@ import java.util.*;
 public class Task1 {
     private List<Integer> listOfNumbers = new ArrayList<>();
     private Map<Integer, String> menu = new HashMap<>();
+    private boolean endFlag = true;
 
 
     public static void main(String[] args) {
         Task1 task1 = new Task1();
+        task1.listOfNumbers.add(task1.getNumbersFromConsole());
+        task1.listOfNumbers.add(task1.getNumbersFromConsole());
         task1.listOfNumbers.add(task1.getNumbersFromConsole());
         task1.generateMenu();
         task1.showMenu();
@@ -16,7 +19,7 @@ public class Task1 {
         do {
                 task1.controllerOfProgram();
         }
-        while();
+        while(task1.endFlag);
 
     }
 
@@ -37,7 +40,7 @@ public class Task1 {
 
     public void showMenu () {
         for (int i = 1; i < menu.size() + 1; i++) {
-            System.out.println(i + ". " + menu.get(i));
+            System.out.print(i + ". " + menu.get(i));
         }
     }
 
@@ -47,6 +50,7 @@ public class Task1 {
     }
 
         public void controllerOfProgram () {
+        showMenu();
             int menuPoint = getMenuPoint();
 
             switch (menuPoint) {
@@ -54,23 +58,32 @@ public class Task1 {
                     int newNumber = getNumbersFromConsole();
                     listOfNumbers.add(newNumber);
                     break; }
-                case(2):
-
+                case(2): {
+                    int removedNumber = getNumbersFromConsole();
+                    deleteNumberFromBD(removedNumber);
+                    showListOfNumbers();
                     break;
-                case(3):
-                        showListOfNumbers();
+                }
+                case(3): {
+                    showListOfNumbers();
                     break;
+                }
                 case(4):
 
                     break;
                 case(5):
 
                     break;
-                case(6):
+                case(6): {
                     endFlag = false;
                     break;
+                }
 
             }
+        }
+
+        public void deleteNumberFromBD (int number) {
+        listOfNumbers.remove(Integer.valueOf(number));
         }
 
         public void showListOfNumbers () {
