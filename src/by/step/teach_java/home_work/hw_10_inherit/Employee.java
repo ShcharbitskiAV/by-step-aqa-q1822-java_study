@@ -3,7 +3,7 @@ package by.step.teach_java.home_work.hw_10_inherit;
 import java.util.Scanner;
 
 public class Employee {
-    protected int age;
+    private int age;
     private String firstName;
     private String secondName;
     private int experience;
