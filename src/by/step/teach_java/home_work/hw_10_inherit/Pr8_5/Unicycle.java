@@ -6,4 +6,8 @@ public class Unicycle extends Cycle {
         return "Unicycle";
     }
 
+    public void balance () {
+        System.out.println("Unicycle has balance method");
+    }
+
 }

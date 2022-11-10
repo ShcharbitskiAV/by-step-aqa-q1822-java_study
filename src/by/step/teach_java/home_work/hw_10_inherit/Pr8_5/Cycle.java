@@ -16,6 +16,8 @@ public class Cycle {
         System.out.println(cycle.wheels(bicycle));
         System.out.println(cycle.wheels(tricycle));
 
+        Cycle[] arrayOfCycles = new Cycle[3];
+
     }
 
     public int wheels(Cycle cycle) {
