@@ -69,7 +69,9 @@ public class Task1 {
                     break;
                 }
                 case(4):
-
+                    int checkNumber = getNumbersFromConsole();
+                    checkValue(checkNumber);
+                    showMenu();
                     break;
                 case(5):
 
@@ -91,5 +93,21 @@ public class Task1 {
                 System.out.println(number + ", ");
             }
             System.out.println();
+    }
+
+    public void checkValue (int number1) {
+        for (int i = 0; i < listOfNumbers.size(); i++) {
+            if (listOfNumbers.get(i) == number1){
+                listOfNumbers.contains(i);
+                System.out.println(true);
+            }
+        }
+    }
+
+    public void replaceValue () {
+        for (Integer number: listOfNumbers) {
+            System.out.println(number + ", ");
+            
+        }
     }
 }
