@@ -7,14 +7,17 @@ public class Pr2_1 {
         String s;
 
         public Storage() {
+
             s = scan.nextLine();
         }
 
-        int storage(String s) {
-            return s.length() * 2; //x2
+        public int storage(String s) {
+
+            return s.length() * 2;
         }
 
         void print() {
+
             System.out.println("The string has " + storage(s) + " " + "symbols (because x2)");
         }
 

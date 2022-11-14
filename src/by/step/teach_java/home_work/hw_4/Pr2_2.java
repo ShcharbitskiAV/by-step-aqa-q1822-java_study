@@ -4,8 +4,8 @@ public class Pr2_2 {
     public static void main(String[] args) {
         //coinflip
 
-        byte orel = 0;
-        byte reshka = 0;
+        int orel = 0;
+        int reshka = 0;
 
         for (int i = 0; i < 10; i++) {
             if (Math.random() < 0.3) {

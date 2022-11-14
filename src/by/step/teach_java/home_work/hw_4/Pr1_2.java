@@ -1,15 +1,13 @@
 package by.step.teach_java.home_work.hw_4;
 public class Pr1_2 {
+
+    private static char c;
+    private static int i;
+
         public static void main(String[] args) {
-            Variables init1 = new Variables();
-            Variables init2 = new Variables();
+            Pr1_2 pr1_2 = new Pr1_2();
 
-            System.out.println("Print value variable ch: " + init1.ch);
-            System.out.println("Print value variable int: " + init2.i);
+            System.out.println("Print value variable ch: " + pr1_2.c);
+            System.out.println("Print value variable int: " + pr1_2.i);
         }
-    }
-
-    class Variables {
-        char ch;
-        int i;
     }

@@ -11,6 +11,7 @@ public class Outer {
     }
 
     public Outer(String name) {
+
         this.name = name;
     }
 
