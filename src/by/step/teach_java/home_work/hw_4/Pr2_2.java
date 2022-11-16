@@ -1,22 +1,26 @@
 package by.step.teach_java.home_work.hw_4;
 
 public class Pr2_2 {
-    public static void main(String[] args) {
-        //coinflip
 
-        int orel = 0;
-        int reshka = 0;
+        public static void main(String[] args) {
+            Pr2_2 pr2_2 = new Pr2_2();
 
-        for (int i = 0; i < 10; i++) {
-            if (Math.random() < 0.3) {
-                orel += 1;
-            } else {
-                reshka += 1;
+            for (int i = 0; i < 5; i++) {
+                pr2_2.coinflip();
             }
         }
-        System.out.println("Orel: " + orel);
-        System.out.println("Reshka: " + reshka);
-    }
+
+        private int getRandomNumber(int from, int till) {
+            return (int) ( from + Math.random() * till);
+        }
+
+        public void coinflip() {
+            if (getRandomNumber(1, 100) <= 50) {
+                System.out.println("Tails");
+            } else {
+                System.out.println("Heads");
+            }
+        }
 }
 
 

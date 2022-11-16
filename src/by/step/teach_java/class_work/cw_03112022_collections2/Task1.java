@@ -107,7 +107,7 @@ public class Task1 {
     public void replaceValue () {
         for (Integer number: listOfNumbers) {
             System.out.println(number + ", ");
-            
+
         }
     }
 }

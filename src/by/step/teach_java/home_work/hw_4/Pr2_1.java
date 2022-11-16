@@ -1,29 +1,25 @@
 package by.step.teach_java.home_work.hw_4;
+
 import java.util.Scanner;
 
 public class Pr2_1 {
-    public static class Storage {
+
+    public int storage(String s) {
+
+        return s.length() * 2;
+    }
+
+    void showResult() {
+        System.out.println("Input your words: ");
         Scanner scan = new Scanner(System.in);
-        String s;
+        String s = scan.nextLine();
 
-        public Storage() {
+        System.out.println("The string has " + storage(s) + " " + "symbols (because x2)");
+    }
 
-            s = scan.nextLine();
-        }
+    public static void main(String[] args) {
 
-        public int storage(String s) {
-
-            return s.length() * 2;
-        }
-
-        void print() {
-
-            System.out.println("The string has " + storage(s) + " " + "symbols (because x2)");
-        }
-
-        public static void main(String[] args) {
-            Storage str = new Storage();
-            str.print();
-        }
+        Pr2_1 task2 = new Pr2_1();
+        task2.showResult();
     }
 }

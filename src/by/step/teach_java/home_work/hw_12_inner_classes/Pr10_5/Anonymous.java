@@ -5,18 +5,17 @@ public class Anonymous {
     private int count = 5;
 
     public void doSmth() {
-        new MainClass() {
-            public void test() {
-                System.out.println("Hello from Anonim class");
-//                super.count = 3;
-//                super.showCount();
+        new Anonymous() {
+            public void doSmthAnonymous() {
+                System.out.println("Hello from Anonymous class");
+                super.count = 15;
+                super.showCount();
             }
-        }.test();
+        }.doSmthAnonymous();
     }
 
     private void showCount() {
-        System.out.println("count = " + count);
-
+        System.out.println("Count = " + count);
     }
 }
 

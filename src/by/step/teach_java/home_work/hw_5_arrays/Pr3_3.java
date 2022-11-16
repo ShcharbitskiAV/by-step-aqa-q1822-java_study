@@ -1,4 +1,5 @@
 package by.step.teach_java.home_work.hw_5_arrays;
+
 public class Pr3_3 {
     public static void main(String[] args) {
 
@@ -10,11 +11,9 @@ public class Pr3_3 {
         digit.append(7); //425677
         digit.replace(2, 5, ""); //427
         System.out.println(digit.insert(2, 4));
-    }
-}
 
-class VariantTwo {
-    public static void main(String[] args) {
+        //VariantTwo
+
 
         String secondWay = "0123456789";
         String secondWay2 = "4247";

@@ -1,4 +1,4 @@
-package by.step.teach_java.home_work.hw_5_arrays;
+package by.step.teach_java.home_work.hw_5_arrays.Pr3_2;
 public class Pr3_2 {
     public static void main(String[] args) {
         Binary bin = new Binary();
@@ -21,9 +21,4 @@ public class Pr3_2 {
         System.out.println("-Second digit >>> 1 = " + Integer.toBinaryString(-bin.secondDigit >>> 1));
 
     }
-}
-
-class Binary {
-    int firstDigit;
-    int secondDigit;
 }
