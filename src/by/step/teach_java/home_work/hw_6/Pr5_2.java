@@ -1,32 +1,22 @@
 package by.step.teach_java.home_work.hw_6;
 
 public class Pr5_2 {
-    int aField;
-    static int bField;
+    static int a = 7;
+    byte b;
 
-    public void aMethod() {
-        int a = 1;
-        System.out.println(a);
+    static int sum(int x, int y) {
+        return x + y;
     }
 
-    public static void bMethod() {
-        int b = 2;
-        System.out.println(b);
-
+    int multiplication(int x, int y) {
+        return x * y;
     }
 
     public static void main(String[] args) {
-        Pr5_2 object = new Pr5_2();
-//        object.aField();
-//        object.aMethod();
-//        Pr5_2.bField();
-//        Pr5_2.bMethod();
+        a = 5;
+        // System.out.println(b); we can't call non-static value from static method
 
-       // object.aField();
-        object.aMethod();
-      //  Pr5_2.bField();
-        Pr5_2.bMethod();
-
-
+        sum(3, 2);
+        //multiplication(3,3); we can't call non-static method from static method
     }
 }
